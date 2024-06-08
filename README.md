@@ -20,7 +20,7 @@ The GitHub Actions workflow defined in this repository performs the following st
 To update your resume, follow these steps:
 1. Clone the repository:
    ```bash
-   git clone https://github.dev/MohamedElashri/resume.git
+   git clone https://github.com/MohamedElashri/resume.git
    cd resume
    ```
 2. Make  changes to `resume.typ`.
