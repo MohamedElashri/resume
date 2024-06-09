@@ -30,7 +30,7 @@
     [JaX],
   )),
   
-    ("Developement Tools/Tech", (
+    ("Development Tools/Tech", (
     [Git],
     [Docker],
     [Linux],
@@ -73,7 +73,7 @@
   project: "Masters Research",
   date: "2018 - 2020",
   location: "Duluth, MN",
-  summary: "Done search for magnetic monopole analysis and maintaining Collboration Software",
+  summary: "Done search for magnetic monopole analysis and maintaining Collaboration Software",
   details: [
     - Doing a search analysis for magnetic monopoles at *NOvA* collaboration.
     - Developing and maintaining several internal software packages used by other members.
@@ -98,8 +98,7 @@
   date: "2018 – 2020",
   summary: "Teaching and tutoring physics for undergraduate students",
   details: [
-    - Grading assignments and tests using answer key, documented results and informed lead teacher of students’
-performance.
+    - Grading assignments and tests using answer key, documented results and informed lead teacher of students performance.
     - Supported student learning objectives through personalized and small group assistance
     - Created and improved tutorials resources and training materials
   ]
@@ -123,7 +122,7 @@ performance.
   role: link("https://github.com/MohamedElashri/free-mac")["Free-Mac"],
   project: "Free Command for macOS",
   date: "April 2024 ",
-  summary: "A command-line utility for monitoring memory usage on macOS, port of 'free' linux.",
+  summary: "A command-line utility for monitoring memory usage on macOS, a port of the 'free' Linux command.",
   details: [
   - Developed a tool that provides an overview of system memory usage, including total, used, free, cached, app, and wired memory
   - Ensured feature parity with the Linux 'free' command to provide a familiar experience for macOS users
@@ -132,7 +131,7 @@ performance.
 
 #exp(
 role: link("https://github.com/MohamedElashri/txm-go")["Txm-Go"],
-project: "A tmux Helper Tool",
+project: "A Tmux Helper Tool",
 date: "June 2024",
 summary: "A command-line utility designed to make working with tmux more efficient and user-friendly.",
 details: [
@@ -143,7 +142,7 @@ details: [
 
 #exp(
 role: link("https://github.com/MohamedElashri/BBH_sim")["Binary Black Hole Simulation"],
-project: "Python package for simulating binary black hole dynamics",
+project: "Python Package for Simulating Binary Black Hole Dynamics",
 date: "June 2024",
 summary: "Developed a user-friendly and efficient framework for simulating binary black hole systems.",
 details: [
@@ -156,7 +155,7 @@ details: [
 role: link("https://github.com/MohamedElashri/firewall")["Firewall"],
 project: "A command-line interface for managing the ufw firewall",
 date: "May 2024",
-summary: "Developed a user-friendly CLI tool to streamline the  management of firewall rules using ufw.",
+summary: "Developed a user-friendly CLI tool to streamline the management of firewall rules using ufw.",
 details: [
 - Implemented a set of intuitive commands for enabling, disabling, and restarting the firewall, displaying status and rules, and managing traffic based on ports, IPs, and application profiles
 - Provided features for firewall logging, resetting to default settings, and backing up and restoring configurations
@@ -164,9 +163,9 @@ details: [
 )
 
 #exp(
-role: link("https://github.com/MohamedElashri/IsingModel")["2D Ising Model MC Simulation"],
-project: " 2D Ising Model Monte-Carlo Simulation",
-date: "March 2022 ",
+role: link("https://github.com/MohamedElashri/IsingModel")["2D Ising Model Monte Carlo Simulation"],
+project: "2D Ising Model Monte Carlo Simulation",
+date: "March 2022", 
 summary: "Developed a high-performance simulation of the 2D Ising model.",
 details: [
 - Implemented the Metropolis algorithm for efficient Monte Carlo sampling, utilizing Numba JIT compilation for accelerated performance
@@ -178,7 +177,7 @@ details: [
 #exp(
 role: link("https://github.com/MohamedElashri/gh-cp")["GitHub CLI Extension: gh-cp"],
 project: "An extension for copying files from a GitHub repository",
-date: "June 2024 ",
+date: "June 2024",
 summary: "Developed an extension for the GitHub CLI allowing copying files from a repository.",
 details: [
 - Implemented support for copying single or multiple files from a GitHub repository, with options to specify a branch or commit to copy from
@@ -187,8 +186,8 @@ details: [
 )
 
 #exp(
-role: link("https://github.com/MohamedElashri/gh-emergency")["GitHub CLI Extension :gh-emergency"],
-project: "A GitHub CLI extension for quickly save work in case of an emergency",
+role: link("https://github.com/MohamedElashri/gh-emergency")["GitHub CLI Extension: gh-emergency"],
+project: "A GitHub CLI extension for quickly save work in case of an emergency", 
 date: "June 2024",
 summary: "Developed a GitHub CLI extension that simplifies the process of creating a new branch, staging changes, creating a commit, and pushing to all remotes in emergency situations.",
 details: [
@@ -204,7 +203,7 @@ details: [
 = Volunteering
 #exp(
 role: "Student Advisor",
-project: "International Graduate Student Mentorship",
+project: "International Graduate Student Mentorship", 
 date: "May 2019 - June 2020",
 summary: "Assisted incoming international students with their transition to UMD",
 details: [
@@ -216,11 +215,12 @@ details: [
 #exp(
 role: "Journal Club President",
 project: "Physics Club",
-date: "2013 - 2018",
+date: "2013 - 2018", 
 summary: "Established and led the Physics Club at Zewail University",
 details: [
-- Founded the Physics Club to promote interest and understanding of physics among students
+- Founded the Physics Club to promote interest and understanding of physics among students 
 - Organized engaging events, such as guest lectures, workshops, and hands-on experiments
 - Collaborated with faculty members to develop educational resources and support student research
 ]
 )
+</document_content_with_fixes>
