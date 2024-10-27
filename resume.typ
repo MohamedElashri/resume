@@ -9,218 +9,226 @@
     [#link("https://github.com/MohamedElashri")[GitHub]],
     [#link("https://linkedin.com/in/elashri")[LinkedIn]],
   ),
-  // footer: [#align(center)[#emph[References available on request]]]
+)
+
+= Education
+#edu(
+  institution: "University of Cincinnati",
+  date: "2020 - current",
+  location: "Cincinnati, OH",
+  degrees: (
+    ("Ph.D.", "Experimental Particle Physics"),
+    ("Focus", "LHCb - Machine Learning - Computing")
+  ),
+)
+
+#edu(
+  institution: "University of Minnessota, Duluth",
+  date: "2020",
+  degrees: (
+    ("M.S.", "Experimental Particle Physics"),
+    ("Focus", "NOvA - Machine Learning")
+  ),
+)
+
+#edu(
+  institution: "Zewail University",
+  date: "2018",
+  degrees: (
+    ("B.S.", "High Energy Physics"),
+    ("Focus", "CMS - Computing")
+  ),
 )
 
 = Skills
 #skills((
-
-    ("Programming Languages", (
+  ("Programming Languages", (
     [C/C++],
     [Python],
-    [Rust],
+    [CUDA],
     [Go],
-    [Wolfram Language]
+    [Rust]
   )),
-
   
   ("Machine Learning", (
     [PyTorch],
     [Keras],
     [JaX],
+    [CuDNN],
+    [TensorRT],
+    [ONNX Runtime]
   )),
   
-    ("Developement Tools/Tech", (
+  ("Developement Tools/Tech", (
     [Git],
     [Docker],
     [Linux],
   )),
 
-  
-
-    ("Soft", (
+  ("Soft", (
     [Leadership],
     [Teamwork],
     [Student Mentoring]
   )),
 
-      ("Languages", (
+  ("Languages", (
     [English (Fluent)],
     [Arabic (Native)],
   )),
-
-  
 ))
 
-
 = Experience
-
 #exp(
-  role: "University of Cincinnati",
-  project: "PhD Research",
+  role: "PhD Researcher",
+  project: "University of Cincinnati",
   date: "2021 - Current",
-  location: "Cincinnati, OH ",
-  summary: "Doing research in flavor physics and working on Neural network based tracking",
+  location: "Cincinnati, OH",
   details: [
-    - Doing an analysis on the Rare B meson decay where I do data analysis on the big dataset from *LHCb*.
-    - Working on state of art Neural Network based algorithm for calculating particles primary vertices.
-    - Working on a specialized GPU based framework for software data acquisition.
+    - Leading analysis of rare B meson decays using *LHCb* dataset
+    - Developing Neural Network algorithms for particle tracking
+    - Building GPU-accelerated data acquisition framework
   ]
 )
 
 #exp(
-  role: "University of Minnesota, Duluth",
-  project: "Masters Research",
+  role: "Research Assistant",
+  project: "University of Minnesota",
   date: "2018 - 2020",
   location: "Duluth, MN",
-  summary: "Done search for magnetic monopole analysis and maintaining Collboration Software",
   details: [
-    - Doing a search analysis for magnetic monopoles at *NOvA* collaboration.
-    - Developing and maintaining several internal software packages used by other members.
+    - Conducted magnetic monopole search at *NOvA* experiment
+    - Maintained core collaboration software packages
   ]
 )
-
 
 #exp(
   role: "Teaching Assistant",
   project: "University of Cincinnati",
   date: "2020 – 2022",
-  summary: "Teaching and tutoring physics for undergraduate students",
   details: [
-    - Teaching introductory physics labs and promote students linking between theoretical development and nature facts.
-    - Helping conduct problem solving sessions and Physics tutoring center
+    - Led physics labs and problem-solving sessions
+    - Provided tutoring support in Physics Learning Center
   ]
 )
 
 #exp(
   role: "Teaching Assistant",
-  project: "University of Minnesota, Duluth",
+  project: "University of Minnesota",
   date: "2018 – 2020",
-  summary: "Teaching and tutoring physics for undergraduate students",
   details: [
-    - Grading assignments and tests using answer key, documented results and informed lead teacher of students’
-performance.
-    - Supported student learning objectives through personalized and small group assistance
-    - Created and improved tutorials resources and training materials
+    - Managed grading for physics courses and labs
+    - Created learning resources and provided student support
   ]
 )
-
-
 
 = Projects
 #exp(
   role: link("https://github.com/MohamedElashri/hadd-parallel")[Hadd-parallel],
-  project: "hadd command in parallel",
+  project: "ROOT Tool",
   date: "May 2019",
-  summary: " A python module to do hadd in parallel for ROOT. Using multiprocessing library.",
   details: [
-    - Designed a python module that utilize multiprocessing module to run ROOT CERN hadd in parallel
-    - Published and maintained internal version of that inside *NOvA* collaboration
+    - Parallel processing *Python* module for merging ROOT files in 
   ]
 )
 
 #exp(
-  role: link("https://github.com/MohamedElashri/free-mac")["Free-Mac"],
-  project: "Free Command for macOS",
-  date: "April 2024 ",
-  summary: "A command-line utility for monitoring memory usage on macOS, port of 'free' linux.",
+  role: link("https://github.com/MohamedElashri/nmem")[nmem],
+  project: "Memory Monitor",
+  date: "2024",
   details: [
-  - Developed a tool that provides an overview of system memory usage, including total, used, free, cached, app, and wired memory
-  - Ensured feature parity with the Linux 'free' command to provide a familiar experience for macOS users
+    - Extended memory monitoring tool for Linux servers
   ]
 )
 
 #exp(
-role: link("https://github.com/MohamedElashri/txm-go")["Txm-Go"],
-project: "A tmux Helper Tool",
-date: "June 2024",
-summary: "A command-line utility designed to make working with tmux more efficient and user-friendly.",
-details: [
-- Developed a Go-based tool that provides a set of commands to manage tmux sessions, windows, panes, and perform various actions
-- Implemented features such as creating, listing, attaching to, detaching from, renaming, and killing tmux sessions, as well as managing windows and panes
-]
+  role: link("https://github.com/MohamedElashri/txm")[txm],
+  project: "Tmux Manager",
+  date: "2024",
+  details: [
+    - CLI tool for efficient tmux session management
+  ]
 )
 
 #exp(
-role: link("https://github.com/MohamedElashri/BBH_sim")["Binary Black Hole Simulation"],
-project: "Python package for simulating binary black hole dynamics",
-date: "June 2024",
-summary: "Developed a user-friendly and efficient framework for simulating binary black hole systems.",
-details: [
-- Implemented a set of tools and functions to set up and run simulations, visualize the results, and generate gravitational waveforms
-- Incorporated various physical effects, including post-Newtonian corrections, radiation reaction, and spin effects
-]
+  role: link("https://github.com/MohamedElashri/firewall")[firewall],
+  project: "UFW Manager",
+  date: "2024",
+  details: [
+    - User-friendly interface for UFW firewall management
+  ]
 )
 
 #exp(
-role: link("https://github.com/MohamedElashri/firewall")["Firewall"],
-project: "A command-line interface for managing the ufw firewall",
-date: "May 2024",
-summary: "Developed a user-friendly CLI tool to streamline the  management of firewall rules using ufw.",
-details: [
-- Implemented a set of intuitive commands for enabling, disabling, and restarting the firewall, displaying status and rules, and managing traffic based on ports, IPs, and application profiles
-- Provided features for firewall logging, resetting to default settings, and backing up and restoring configurations
-]
+  role: link("https://github.com/MohamedElashri/free-mac")[free-mac],
+  project: "MacOS Monitor",
+  date: "2024",
+  details: [
+    - Port of *free* GNU tool to MacOS
+  ]
 )
 
 #exp(
-role: link("https://github.com/MohamedElashri/IsingModel")["2D Ising Model MC Simulation"],
-project: " 2D Ising Model Monte-Carlo Simulation",
-date: "March 2022 ",
-summary: "Developed a high-performance simulation of the 2D Ising model.",
-details: [
-- Implemented the Metropolis algorithm for efficient Monte Carlo sampling, utilizing Numba JIT compilation for accelerated performance
-- Optimized the code to minimize nested loops and leverage vectorized operations, significantly reducing execution time for larger lattice sizes and more Monte Carlo sweeps
-]
-)
-
-
-#exp(
-role: link("https://github.com/MohamedElashri/gh-cp")["GitHub CLI Extension: gh-cp"],
-project: "An extension for copying files from a GitHub repository",
-date: "June 2024 ",
-summary: "Developed an extension for the GitHub CLI allowing copying files from a repository.",
-details: [
-- Implemented support for copying single or multiple files from a GitHub repository, with options to specify a branch or commit to copy from
-- Added functionality to read file paths from a file for bulk copying, enhancing efficiency when dealing with numerous files
-]
+  role: link("https://github.com/MohamedElashri/BBH_sim")[BBH Simulation],
+  project: "Physics Tool",
+  date: "2024",
+  details: [
+    - Binary black hole dynamics and gravitational Simulation *Python* package
+  ]
 )
 
 #exp(
-role: link("https://github.com/MohamedElashri/gh-emergency")["GitHub CLI Extension :gh-emergency"],
-project: "A GitHub CLI extension for quickly save work in case of an emergency",
-date: "June 2024",
-summary: "Developed a GitHub CLI extension that simplifies the process of creating a new branch, staging changes, creating a commit, and pushing to all remotes in emergency situations.",
-details: [
-- Implemented a streamlined workflow for quickly adding, committing, and pushing changes to a remote repository with a single command
-- Automated the creation of a new branch with a timestamped name to ensure unique identification of emergency commits
-]
+  role: link("https://github.com/MohamedElashri/bfit")[BFit],
+  project: "Physics Analysis",
+  date: "2023",
+  details: [
+    -  B physics fitting *Python* module
+  ]
 )
 
+#exp(
+  role: link("https://github.com/MohamedElashri/IsingModel")[Ising Model],
+  project: "Physics Simulation",
+  date: "2022",
+  details: [
+    - Monte Carlo simulation of 2D Ising model with Numba acceleration
+  ]
+)
 
+#exp(
+  role: link("https://github.com/MohamedElashri/rootcern-action")[ROOT Action],
+  project: "GitHub Tool",
+  date: "2023",
+  details: [
+    - GitHub action for automating *ROOT* CERN script execution
+  ]
+)
 
-
+#exp(
+  role: link("https://github.com/MohamedElashri/arxivabscraper")[arXiv Scraper],
+  project: "NLP Tool",
+  date: "2023",
+  details: [
+    - ArXiv abstract scraping *Python* module for NLP analysis
+  ]
+)
 
 = Volunteering
 #exp(
-role: "Student Advisor",
-project: "International Graduate Student Mentorship",
-date: "May 2019 - June 2020",
-summary: "Assisted incoming international students with their transition to UMD",
-details: [
-- Mentored new international graduate students, helping them navigate academic and cultural challenges
-- Collaborated with university departments to ensure a smooth transition for international students
-]
+  role: "Student Advisor",
+  project: "International Graduate Mentorship",
+  date: "May 2019 - June 2020",
+  details: [
+    - Mentored international students in academic and cultural transition
+    - Coordinated with university departments for student support
+  ]
 )
 
 #exp(
-role: "Journal Club President",
-project: "Physics Club",
-date: "2013 - 2018",
-summary: "Established and led the Physics Club at Zewail University",
-details: [
-- Founded the Physics Club to promote interest and understanding of physics among students
-- Organized engaging events, such as guest lectures, workshops, and hands-on experiments
-- Collaborated with faculty members to develop educational resources and support student research
-]
+  role: "Journal Club President",
+  project: "Physics Club",
+  date: "2013 - 2018",
+  details: [
+    - Founded and led university Physics Club promoting student engagement
+    - Organized technical lectures, workshops, and research activities
+  ]
 )
