@@ -1,3 +1,4 @@
+
 #import "@preview/guided-resume-starter-cgc:2.0.0": *
 
 #show: resume.with(
@@ -11,6 +12,37 @@
   ),
   // footer: [#align(center)[#emph[References available on request]]]
 )
+
+= Education
+#edu(
+  institution: "University of Cincinnati",
+  date: "2020 - current",
+  location: "Cincinnati, OH",
+  degrees: (
+    ("Ph.D.", "Experimental Particle Physics"),
+    ("Research", "LHCb - flavor physics - Machine learning - Scintific Computing")
+
+  ),
+)
+
+#edu(
+  institution: "University of Minnessota, Duluth",
+  date: "2020",
+  degrees: (
+    ("Masters", "Experimental Particle Physics"),
+    ("Research", "NOvA - Machine Learning")
+  ),
+)
+
+#edu(
+  institution: "Zewail University, Egypt",
+  date: "2018",
+  degrees: (
+    ("Bachelor's of Science", "High Energy Physics"),
+    ("Research", "CMS - Sofware - Scintific Computing")
+  ),
+)
+
 
 = Skills
 #skills((
@@ -52,6 +84,8 @@
   
 ))
 
+
+/*
 
 = Experience
 
@@ -104,7 +138,6 @@ performance.
     - Created and improved tutorials resources and training materials
   ]
 )
-
 
 
 = Projects
