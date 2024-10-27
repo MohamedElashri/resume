@@ -45,15 +45,18 @@
   ("Programming Languages", (
     [C/C++],
     [Python],
-    [Rust],
+    [CUDA],
     [Go],
-    [Wolfram Language]
+    [Rust]
   )),
   
   ("Machine Learning", (
     [PyTorch],
     [Keras],
     [JaX],
+    [CuDNN],
+    [TensorRT],
+    [ONNX Runtime]
   )),
   
   ("Developement Tools/Tech", (
@@ -121,73 +124,91 @@
 = Projects
 #exp(
   role: link("https://github.com/MohamedElashri/hadd-parallel")[Hadd-parallel],
-  project: "ROOT Parallel Processing",
+  project: "ROOT Tool",
   date: "May 2019",
   details: [
-    - Developed Python-based parallel processing module for ROOT files in *NOvA* collaboration
+    - Parallel processing *Python* module for merging ROOT files in 
   ]
 )
 
 #exp(
-  role: link("https://github.com/MohamedElashri/free-mac")["Free-Mac"],
-  project: "System Monitor",
-  date: "April 2024",
+  role: link("https://github.com/MohamedElashri/nmem")[nmem],
+  project: "Memory Monitor",
+  date: "2024",
   details: [
-    - Built Linux-style memory monitoring tool for macOS using *Go*
+    - Extended memory monitoring tool for Linux servers
   ]
 )
 
 #exp(
-  role: link("https://github.com/MohamedElashri/txm-go")["Txm-Go"],
+  role: link("https://github.com/MohamedElashri/txm")[txm],
   project: "Tmux Manager",
-  date: "June 2024",
+  date: "2024",
   details: [
-    - Created *Go* CLI tool for automated tmux session management
+    - CLI tool for efficient tmux session management
   ]
 )
 
 #exp(
-  role: link("https://github.com/MohamedElashri/BBH_sim")["BBH Simulation"],
-  project: "Physics Simulator",
-  date: "June 2024",
+  role: link("https://github.com/MohamedElashri/firewall")[firewall],
+  project: "UFW Manager",
+  date: "2024",
   details: [
-    - Implemented binary black hole simulation framework with gravitational wave generation in *Python*
+    - User-friendly interface for UFW firewall management
   ]
 )
 
 #exp(
-  role: link("https://github.com/MohamedElashri/firewall")["Firewall"],
-  project: "UFW CLI",
-  date: "May 2024",
+  role: link("https://github.com/MohamedElashri/free-mac")[free-mac],
+  project: "MacOS Monitor",
+  date: "2024",
   details: [
-    - Developed streamlined UFW firewall management tool in *Go*
+    - Port of *free* GNU tool to MacOS
   ]
 )
 
 #exp(
-  role: link("https://github.com/MohamedElashri/IsingModel")["Ising Model"],
+  role: link("https://github.com/MohamedElashri/BBH_sim")[BBH Simulation],
+  project: "Physics Tool",
+  date: "2024",
+  details: [
+    - Binary black hole dynamics and gravitational Simulation *Python* package
+  ]
+)
+
+#exp(
+  role: link("https://github.com/MohamedElashri/bfit")[BFit],
+  project: "Physics Analysis",
+  date: "2023",
+  details: [
+    -  B physics fitting *Python* module
+  ]
+)
+
+#exp(
+  role: link("https://github.com/MohamedElashri/IsingModel")[Ising Model],
   project: "Physics Simulation",
-  date: "March 2022",
+  date: "2022",
   details: [
-    - Built optimized 2D Ising model simulator using *Python* with Numba acceleration
+    - Monte Carlo simulation of 2D Ising model with Numba acceleration
   ]
 )
 
 #exp(
-  role: link("https://github.com/MohamedElashri/gh-cp")["gh-cp"],
+  role: link("https://github.com/MohamedElashri/rootcern-action")[ROOT Action],
   project: "GitHub Tool",
-  date: "June 2024",
+  date: "2023",
   details: [
-    - Created GitHub CLI extension for efficient repository file management
+    - GitHub action for automating *ROOT* CERN script execution
   ]
 )
 
 #exp(
-  role: link("https://github.com/MohamedElashri/gh-emergency")["gh-emergency"],
-  project: "GitHub Tool",
-  date: "June 2024",
+  role: link("https://github.com/MohamedElashri/arxivabscraper")[arXiv Scraper],
+  project: "NLP Tool",
+  date: "2023",
   details: [
-    - Built GitHub CLI extension for rapid emergency code saving and pushing
+    - ArXiv abstract scraping *Python* module for NLP analysis
   ]
 )
 
